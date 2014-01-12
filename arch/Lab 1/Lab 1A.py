@@ -1,4 +1,3 @@
-
 def BinToDecimal(binStr):
     if len(binStr) != 32:
         num = 32 - len(binStr)
