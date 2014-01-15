@@ -1,4 +1,3 @@
-
 public class SpiderSong {
 	String fly;
 	String spider;
@@ -95,5 +94,5 @@ public class SpiderSong {
 		SpiderSong song = new SpiderSong();
 		String songString = song.getFly() + song.getSpider() + song.getBird() + song.getCat() + song.getDog() + song.getPython() + song.getHorse();
 		System.out.println(songString);
-	}
-}
+	} //end main method
+} // end class
