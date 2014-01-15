@@ -1,4 +1,12 @@
+// Programming Homework 1
+// Jessica Morton
+// 1/15/2014
+
+// Java program that prints the lyrics of 
+// "There was an old woman who swallowed a fly"
 public class SpiderSong {
+	
+	// Variables for each animal and strings
 	String fly;
 	String spider;
 	String bird;
@@ -12,6 +20,7 @@ public class SpiderSong {
 	String swallow = "She swallowed the ";
 	String capture = " to catch the ";
 	
+	// Constructor
 	SpiderSong() {
 		this.fly = "fly";
 		this.spider = "spider";
