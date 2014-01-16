@@ -1,3 +1,4 @@
+// Lab 3
 
 public class NormalBirthdaySong {
     static String bdayStr = "Happy Birthday to you";
