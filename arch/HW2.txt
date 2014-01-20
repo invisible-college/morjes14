@@ -1,0 +1,48 @@
+Jessica Morton
+morjes14
+
+Architecture HW 2
+
+2.
+Infix: (7+1)*(8-3)
+Postfix: 7 1 + 8 3 - *
+
+4.
+The fetch-execute cycle is more complex on a RISC computer because the chip might 
+have to more each byte or word into the CPU from memory, and then back into memory. 
+
+6.
+Typed Calculations Advantages: Greater security,
+
+Typed Calculations Disadvantages: More tricky to use, almost every combination of type 
+and operation needs a special opcode and mnemonic. 
+
+7.
+The instruction 'cadd', doesn't exist because you can't add chars together in the same way 
+as adding ints together with 'iadd'. There is no such thing as adding chars together.
+
+8.
+bipush -7
+ldc -7
+ldc2 -7
+sipush -300
+sipush -300.0
+
+9.
+Shift operations can be used to move bits around in a number to make it a new number.
+So you could possibly shift the bits of a number around to add 8 to it.
+
+10.
+Maybe from shift operations or from stack manipulation operations such as the pop
+operation. 
+
+11.
+add, sub, mul, and div all work on int, float, and long.
+
+12.
+The number divided by is stored as the second element.
+
+14.
+a b + c + d + e + e /
+
+
