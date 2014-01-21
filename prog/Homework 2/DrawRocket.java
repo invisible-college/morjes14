@@ -4,7 +4,7 @@
 public class DrawRocket 
 {
 	// Set the overall size of the Rocket
-	static int size = 5;
+	static int size = 3;
 			
 	public static void main(String[] args) {
 		cone();

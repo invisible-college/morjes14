@@ -13,7 +13,7 @@ static int base = 7;
 			for (int k = 1; k <= l; k++) {
 				result += " ";
 			}
-	
+			
 			for (int k = 0; k < n; k++) {
 				
 				for (int j = 0; j <= d; j++) {
