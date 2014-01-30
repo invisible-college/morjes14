@@ -34,7 +34,7 @@
 
   invokevirtual java/io/PrintStream/println(I)V
 
-  print:
+  ;print:
   getstatic java/lang/System/out Ljava/io/PrintStream;
 
   iload_1
