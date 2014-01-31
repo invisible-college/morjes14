@@ -23,7 +23,12 @@ public class ColorScheme {
 	public static Color combineColors(Color color1, Color color2) {
 		// TODO: Fill in your code here, implementing the specification above
 		// Remove or change the return statement below.
-		return Color.black;
+		
+		int r = (color1.getRed() + color2.getRed()) / 2;
+		int g = (color1.getGreen() + color2.getGreen()) / 2;
+		int b = (color1.getBlue() + color2.getBlue()) / 2;
+		
+		return new Color(r, g, b);	
 	}
 	
 	public ColorScheme combineWith(ColorScheme newScheme) {
