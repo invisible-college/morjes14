@@ -27,6 +27,7 @@ public class DrawingTest {
 			drawSquare(g, x, y, size, Color.MAGENTA);
 			x += 100;
 		}
+		
 	}
 	
 	public static void drawGrid(Graphics g, int x, int y, int squares, int size) {
@@ -43,5 +44,7 @@ public class DrawingTest {
 			}
 			y += size;
 		} 	
+		
 	}
+	
 }
