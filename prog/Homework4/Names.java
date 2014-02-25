@@ -28,9 +28,9 @@ public class Names {
 	public static String[] Prompt() {
 		Scanner console = new Scanner(System.in);
 		
-		System.out.print("name? ");
+		System.out.print("Name? ");
 		String name = console.next(); // get name from user
-		System.out.print("gender? ");
+		System.out.print("Gender (M/F)? ");
 		String gender = console.next(); // get gender from user
 		
 		console.close();
