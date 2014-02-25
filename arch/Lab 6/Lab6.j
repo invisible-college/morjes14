@@ -1,4 +1,4 @@
-.class public arch/Lab5
+.class public arch/Lab6
 .super java/lang/Object
 
 .method public <init>()V
@@ -19,8 +19,10 @@
   istore_2
 Loop:
   getstatic java/lang/System/out Ljava/io/PrintStream;
-  ldc  "*****"
-  invokevirtual java/io/PrintStream/println(Ljava/lang/String;)V
+  iload_1
+  iload_1
+  imul
+  invokevirtual java/io/PrintStream/println(I)V
   iload_1
   iconst_1       
   iadd     
