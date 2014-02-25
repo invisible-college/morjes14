@@ -1,0 +1,44 @@
+Jessica Morton
+morjes14
+
+Architecture HW 4
+
+1.
+Registers are essentially free and programmers can have and use as many as 
+they like. Local variables are the same in that programmers can use as many
+as they like.
+
+2.
+Local variables are easily changed. 
+Local variables only store bit patterns.
+
+3.
+A stack is a collection of number or data object with similar properties.
+And only the top element is available for processing.
+
+4.
+5, 7, null
+
+5.
+Extended address space, address space, and capacity increase.
+Would let programmers do operations involving numbers quadrillions more
+quickly.
+
+6.
+Fetch, Dispatch, Execute, Complete/Writeback
+
+7.
+With the RISC, at every step the instruction to move a particular byte
+would have to be fetched and interpreted. The overall fetch cycle may
+run faster, but it would need to use lots of instructions to do so. A 
+CISC could do the same in a single machine instruction.
+
+8.
+A data structure consisting of groups of nodes which together represent
+a sequence. Each node is composed of a data and a pointer to the next node in the sequence. Linked Lists allow for efficient insertion or removal of
+elements from any position in the sequence.
+
+9.
+Can provide computers with access to greater amounts of memory more quickly
+and securely.
+Don't have to use up physical memory.

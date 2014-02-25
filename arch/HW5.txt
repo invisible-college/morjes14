@@ -1,0 +1,26 @@
+Jessica Morton
+morjes14
+
+Architecture HW 5
+
+1.
+SIMD: Same Instruction, Multiple Data. Doing the same operation
+independently to several different pieces of data. Parallel operations.
+
+MIMD: Multiple Instruction Multiple Data. While one pipelining is 
+preforming one instruction on a piece of data, another pipeline can be
+doing an entirely different operation on entirely different data.
+
+GPU's are SIMD since they have widely taken over the tasks of the CPU.
+A lot of tasks in 3D graphics are idependent from each other, so they
+are parallelized. 
+
+2.
+Spatial locality states that two instructions reference contiguous memory
+ locations. For example, references to a[i]. a[0] and a[1] will be next to 
+ each other in memory.
+
+Temporal locality states that two instructions reference the same location 
+within a relatively short timeframe. For example, a[i] is referenced frequently, 
+with instructions like a[i] = a[i] * 2 and a[i] = a[i] * 3 being executed 
+very close together. 
