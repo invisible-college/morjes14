@@ -1,4 +1,4 @@
-// Class represents Rational Numbers
+// Class represents Rational Numbers 
 public class RatNumber {
 
 	int numer;
