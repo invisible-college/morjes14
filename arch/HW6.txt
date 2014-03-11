@@ -1,0 +1,59 @@
+Jessica Morton
+morjes14
+
+Architecture HW 6
+
+public static void main(java.lang.String[]);
+    Code:
+       0: bipush        100
+       2: sipush        200
+       5: multianewarray #2,  2             // class "[[I" new multi-dimensional array
+       9: astore_1      
+      10: new           #3                  // class java/util/ArrayList
+      13: dup           
+      14: invokespecial #4                  // Method java/util/ArrayList."":()V
+      17: astore_2      
+      18: invokestatic  #5                  // Method java/lang/System.nanoTime:()J
+      21: lstore_3      
+      22: iconst_0      
+      23: istore        5
+      25: iload         5
+      27: bipush        100
+      29: if_icmpge     88					// if/else
+      32: iconst_0      
+      33: istore        6
+      35: iload         6
+      37: sipush        200
+      40: if_icmpge     82					// if/else
+      43: iload         5
+      45: iload         6
+      47: if_icmpne     61					// if/else
+      50: aload_1       
+      51: iload         5
+      53: aaload        
+      54: iload         6
+      56: iconst_0      
+      57: iastore       
+      58: goto          76					// end of loop
+      61: aload_1       
+      62: iload         5
+      64: aaload        
+      65: iload         6
+      67: iload         5
+      69: iload         6
+      71: iload         6
+      73: imul          
+      74: iadd          
+      75: iastore       
+      76: iinc          6, 1 				// increment
+      79: goto          35					// end of loop
+      82: iinc          5, 1 				// increment
+      85: goto          25					// end of loop
+      88: invokestatic  #5                  // Method java/lang/System.nanoTime:()J
+      91: lstore        5
+      93: getstatic     #6                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      96: lload         5
+      98: lload_3       
+      99: lsub          
+     100: invokevirtual #7                  // Method java/io/PrintStream.println:(J)V
+     103: return 
