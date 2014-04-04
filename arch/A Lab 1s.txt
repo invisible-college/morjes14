@@ -1,0 +1,18 @@
+A Lab 1s
+Jessica Morton
+morjes14
+
+1. What do the first two parameters mean in ellipse(a, b, c, d)
+	The first parameter is the x-coordinate and the second parameter is the y-coordinate.
+
+2. Does draw() automatically redraw the background?
+	Yes, draw() is called on each frame and keeps running until stopped.The background is drawn continuously each time before the square is drawn. Whatever statements that are written in the body of draw() will be run, continuously.
+
+3.  What does fill(255, 0, 0) do?
+	Sets the color used to fill shapes. One parameter will be a Grayscale color, and 3 parameters will be a RGB color.
+
+4. Describe what rotate(PI/12.0) does to a circle located in the middle of the window.
+	Rotates the circle the amount specified by the angle parameter. Rotate(PI/12.0) rotates the circle around the point of origin by the specified amount.
+
+5. Describe what rotate(PI/12.0) does to a rectangle located in the middle of the window.
+	Rotates the rectangle the amount specified by the angle parameter. Rotate(PI/12.0) rotates the rectangle around the point of origin by the specified amount.
