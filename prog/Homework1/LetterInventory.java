@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class LetterInventory {      
   
@@ -12,21 +11,18 @@ public class LetterInventory {
     	System.out.println(inventory1.toString());
     	System.out.println(inventory2.toString());
     	LetterInventory sum = inventory1.add(inventory2);
+    	LetterInventory sub = inventory1.subtract(inventory2);
     }
     
     // Constructs an inventory (a count) of the alphabetic letters in the given string,
     //ignoring the case of letters and ignoring any non-alphabetic characters.
 	public LetterInventory(String data) {  
         data = data.toLowerCase();  
-        System.out.println(data);  
         size = 0;   
         
         for (int j = 0; j < alphabet.length(); j++) {
-        	//System.out.println(alphabet.charAt(j));
         	for (int i = 0; i < data.length(); i++) {
-        		//System.out.println(data.charAt(i));
 	            if (alphabet.charAt(j) == data.charAt(i)) {
-	            	//System.out.print(data.charAt(i));
 	            	count[j]++;
 	            	size++;  
 	            }  
@@ -94,8 +90,9 @@ public class LetterInventory {
 	//letter should be added together. The two LetterInventory objects being added 
 	//together (this and other) should not be changed by this method
 	public LetterInventory add(LetterInventory other) {
-	      LetterInventory combined = new LetterInventory(this.toString() + other);  
-	      return combined;  
+	      LetterInventory added = new LetterInventory(this.toString() + other);
+	      System.out.println(added);
+	      return added;  
 		
 	}
 	
@@ -105,8 +102,9 @@ public class LetterInventory {
 	//would be negative, your method should return null. The two LetterInventory 
 	//objects being subtracted (this and other) should not be changed by this method
 	public LetterInventory subtract(LetterInventory other) {
-		return other;
-		
+	      LetterInventory subtracted = new LetterInventory(this.toString() - other);
+	      System.out.println(subtracted);
+		return subtracted;
 	}
 }
 
