@@ -1,0 +1,43 @@
+Arch HW 1s
+Jessica Morton
+morjes14
+
+Chapter 9
+1.	First, they are found in embedded systems. Second, they are smaller, less capable.
+	Third, they are usually single-chip gadgets.
+
+3.	
+
+4.	No, the Atmel AVR is an example of the Harvard Architecture where different physical
+	storage banks are available for transferring machine instructions and data.
+
+5.	RAM is Random Access Memory that can be accessed at any time, in any order and from any
+	physical location. It is volatile.
+	ROM is Read-only Memory that can not be easily altered or reprogrammed. ROM is lost when
+	the power is turned off. It is non-volatile.
+	
+6.	SRAM costs more because it is more efficient. It doesn't require refresh cycles and it 
+	can be accessed more quickly. It's faster and consumes less power than DRAM.
+
+7.	Read-only bank: for program code  
+	Read/Write bank: for program variables
+	Long term storage: for long term storage of program data
+	
+8.	Watchdog timer prevents the system from locking up.
+
+9.	"Memory-mapped I/O" performs input/output between the CPU and peripheral devices.
+
+10.	 Uses EEPROM. UART interacts with the CPU through four registers.
+
+11.	Change the pattern in which the lights flash.
+
+12.	EPROM: Erasable Programmable ROM, semiconductor-based reusable fuse at each memory
+	element.
+	EEPROM: Electronically Erasable Programmable ROM, uses a localized electrical field
+	to "erase" each memory cell instead of erasing the entire chip.
+	
+13.	UART: Universal Asynchronous Receiver and Transmitter, builtin peripherial for large
+	scale data transmission/reception.
+	
+14.	An interrupt is a signal to the processor emitted by hardware or software indicating an
+	event that needs immediate attention.

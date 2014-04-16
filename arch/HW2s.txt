@@ -1,0 +1,26 @@
+Arch HW 2s
+Jessica Morton
+morjes14
+
+Chapter 6
+1.	8088 has 8 general-purpose registers.
+
+2.	The BX registers can be divided into the BH and BL registers
+
+3.	a. 0000:0000 = 0x00000
+	b. A000:BCD0 = 0xABCD0
+
+4.	IRQ or INT
+
+5.	ADD AX, 1 ; AX = AX + 1
+
+6.	ADD WORD PTR [4000h], 1		;increment the 16-bit value at 0x4000
+	ADD BYTE PTR [4000h], 1		;increment the 8-bit value at 0x4000
+
+7.	Strings can be implemented as arrays of characters, the 8088 also provides some
+	string primitive operations.
+
+8.	In the Greet array, where everything can be accessed or changed from anywhere in
+	the program.
+
+9.	Because that is the standard method of reading and writing in Western culture.
