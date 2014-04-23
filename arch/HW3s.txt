@@ -1,0 +1,44 @@
+Arch HW 3s
+Jessica Morton
+morjes14
+
+Chapter 6
+1.	The register is decremented by the appropiate amount, usually 2. This pushes the top of
+the stack two bytes closer to the rest of the program. The value to be pushed is stored
+in these new two bytes.
+
+The register that contains the stack pointer is usually set by the programmer to one
+or more of the registers (normally r1).
+
+2.	A heap is a specialized tree-based data structure that satisfies the heap property: 
+If A is a parent node of B then the key of node A is ordered with respect to the key 
+of node B with the same ordering applying across the heap.
+
+Heaps are implemented in an array and don't need pointers between elements.
+
+3.	8 general purpose registers: AX BX CX DX
+								 SI DI BP SP
+
+4. 	The Pentium has 8 general purpose registers, but it also has more registers. 
+The 8 general purpose registers have expanded to hold 32-bit quantities and received
+new names. They are now: EAX EBX ECX EDX
+						 ESI EDI EBP ESP
+						 
+5.	IRQ or INT
+
+6.	objdump -Dslx file
+
+7.	In the Greet array, where everything can be accessed or changed from anywhere in
+	the program.
+	
+8.	Most of the Pentium instruction set is inherited directly from the 8088. The only
+major change is that the mnemonics have been updated to reflect the possibility of using
+the extended 32-bit registers; the instruction 
+							ADD EAX, EBX ; ADD 32-bit register to 32-bit register
+							
+9.	Because that is the standard method of reading and writing in Western culture.
+
+10.	The #define creates a macro, which is the association of an identifier or 
+parameterized identifier with a token string. After the macro is defined, the compiler 
+can substitute the token string for each occurrence of the identifier in the source 
+file.
