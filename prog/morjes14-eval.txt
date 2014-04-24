@@ -1,3 +1,4 @@
-{W1} set Week 1 goal, self evaluated
-{W2} set week 2 goal, self evaluated
-{W3} set week 3 goal
+{W1} : goal and evaluation
+{W2} : goal and evalutaion
+{W3} : goal and evaluation
+{W4} : goal and evaluation
