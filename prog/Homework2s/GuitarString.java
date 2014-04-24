@@ -3,23 +3,17 @@ import java.util.*;
 // Models a vibrating guitar string of a given frequency
 public class GuitarString {
 	
-	Queue<Double> RingBuffer;
-
+	private double n;
+	private Queue<Double> ringBuffer;
+	
 	public static void main(String[] args) {
-        int N = Integer.parseInt(args[0]);
-        double[] samples = { .2, .4, .5, .3, -.2, .4, .3, .0, -.1, -.3 };  
-        GuitarString testString = new GuitarString(samples);
-        for (int i = 0; i < N; i++) 
-        {
-            double sample = testString.sample();
-            System.out.printf("%6d %8.4f\n", sample);
-            testString.tic();
-        }
+		GuitarString g = new GuitarString(100.0);
 	}
 	
 	public GuitarString(double frequency) {
 		if (frequency > 0.0) {
-			double length = StdAudio.SAMPLE_RATE/frequency;
+			n = StdAudio.SAMPLE_RATE/frequency;
+			ringBuffer = new LinkedList<Double>();
 		}
 		if (frequency > 1) {
 			
@@ -29,11 +23,19 @@ public class GuitarString {
 	}
 	
 	public GuitarString(double[] init) {
-		
+		if(init.length < 2) {
+            throw new IllegalArgumentException();
+		} else {
+            ringBuffer = new LinkedList<Double>();
+            for (int i = 0; i < init.length; i++) {
+            	ringBuffer.add(init[i]);
+            }
+		}
 	}
 	
 	void pluck() {
-		
+		Random r = new Random();
+        n = (r.nextInt(10) / 10.0) - 0.5;
 	}
 	
 	void tic() {
@@ -42,7 +44,7 @@ public class GuitarString {
 	
 	// returns the current sample (the value at the front of the ring buffer)
 	public double sample() {
-		
+		return ringBuffer.peek();
 	}
 	
 }
