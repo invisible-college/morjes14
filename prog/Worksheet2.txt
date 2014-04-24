@@ -1,0 +1,32 @@
+Programming Worksheet 2
+Jessica Morton
+morjes14
+
+1.	Ahmed Ali
+
+2.	Goals and partner name
+
+4.	The has-a relationship means that one type of object contains another.
+	The is-a relationship means that one type of object is a more specific version 
+	of a general type.
+	
+	A Schwinn "is-a" kind of bicycle, and a bicycle "has-a" wheel
+
+5.	Another name for state is internal data. Another name for behavior is methods.
+	Each object has a unique address in memory.
+	
+6.	One could be an instance of the other, so therefore, it'd be a "has-a" relationship.
+
+7.	The "has-a" since IndieMusician has a Guitar.
+
+8.	public interface NameOfInterface vs. public class NameOfClass
+
+9.	this.
+
+10.	this.delayTime = delayTime;
+	
+11.	
+
+12.
+
+13.
