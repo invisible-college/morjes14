@@ -1,3 +1,6 @@
+{C1} : Java Introduction
+{C2} : Objects and Classes
+
 {W1} : goal and evaluation
 {W2} : goal and evalutaion
 {W3} : goal and evaluation
