@@ -1,0 +1,32 @@
+Programming Worksheet 4
+Jessica Morton
+morjes14
+
+1.	Declared: 2, 3, 4, 5
+	Assigned: 6, 7
+	Initialized: 2, 3, 4, 5
+	Referred: 10, 11, 12, 14, 17, 18
+
+2.	In the example, they are declaring asparagus, and then referring to it in the picture.
+	So, the declaration is where you are declaring the variable, and the invokation is where
+	you  mention it or use it.
+	
+3.	BMW is declared as a car brand, I can invoke that car brand by saying that I drive a BMW.
+
+4.	Declarations: 4, 7
+	Invokations: 11, 12
+	
+5.	Public: everyone can see it
+6.	Protected: package Private + can be seen by subclasses or package member.
+7.	Private: only the class in which it is declared can see it
+8.	Default Access:
+
+10.	extends and implements
+
+11.	static variables, static methods, private methods
+
+12.	The derived class is called a subclass and the class from which it's derived is called
+	the superclass.
+
+
+14.	
