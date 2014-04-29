@@ -2,25 +2,18 @@ Arch HW 4s
 Jessica Morton
 morjes14
 
-1.	What is virtual memory and why is it useful?
+1.	Virtual memory is a memory management technique that is implemented using both 
+	hardware and software. It maps memory addresses used by a program, called virtual 
+	addresses, into physical addresses in computer memory.
 
-2.	What is a page table?
+2.	A page table is the data structure used by a virtual memory system in a computer 
+	operating system to store the mapping between virtual addresses and physical addresses. 
 
-3.	What is a page fault?
+3.	A page fault is a trap to the software raised by the hardware when a program accesses
+	a page that is mapped in the virtual address space, but not loaded in physical memory.
 
-4.	How many bits are used for an address on a Pentium? Explain the possibilities
+4.	32-bits
 
-5.	Suppose you use an MMX add for the following two registers, and assume that [unsigned] 
-	bytes wrap around, i.e.
-	  255 + 1 = 0
-	
-	Show the result for a byte partitioned add for the following two registers:
-	  | 128 |  15 |  22 |  240 |
-	+ | 180 |   6 |  33 |  128 |
-	
-	What would these two registers look like in hexadecimal? 
+5.	
 
-	What would the result look like in hexadecimal? You can write a program to compute this.
-
-6.	What would a normal add result in, if these were treated as unsigned 32-bit quantities 
-that were being added?
+6.	
