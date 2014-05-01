@@ -1,0 +1,20 @@
+Programming Worksheet 5
+Jessica Morton
+morjes14
+
+1.	Matthew Shultz, Jessica Morton
+
+2.	Yes
+
+3.	a.)	a collection of items that is a complete, ordered listing of all of the items
+		in that collection. All the elements of a set.
+	b.)	Comopass (North, South, East, West), Days of the week
+	c.)	Named constants are safer and more readable, Enums describe what they are for.
+	
+4.	a.)	Routines, methods that contain steps to be carried out
+	b.)	Bicycles: current speed, current gear, current pedal cadence
+	c.)	Difficult to maintain, No automatic memory management
+	
+5.	a.)	Grouping related variables and functions together.
+	b.)	Cars and owners: all functions of cars are encapsulated with the owners.
+	c.)	Easy to read and maintain, More flexible, easy to change, programs divided up.
