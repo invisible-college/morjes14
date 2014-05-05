@@ -1,6 +1,8 @@
+
 {C1} : Java Introduction
 {C2} : Objects and Classes
-
+{S1} : Sem 1 Tools
+{SS3} : Talk 3 Render
 {W1} : goal and evaluation
 {W2} : goal and evalutaion
 {W3} : goal and evaluation
