@@ -1,6 +1,7 @@
-
 {C1} : Java Introduction
 {C2} : Objects and Classes
+{C3} : Import Statements and Scanner
+{C4} : Looping and Conditionals
 {S1} : Sem 1 Tools
 {SS3} : Talk 3 Render
 {W1} : goal and evaluation
@@ -9,7 +10,3 @@
 {W4} : goal and evaluation
 {W5} : goal and evalutaion
 {W6} : goal
-{L1} : 
-{L2} : 
-{L3} : 
-{L4} : 
