@@ -3,6 +3,7 @@
 {C3} : Import Statements and Scanner
 {C4} : Looping and Conditionals
 {S1} : Sem 1 Tools
+{S2} : Sem 2 Termination
 {SS1} : Talk 1 Tools
 {SS3} : Talk 3 Render
 {W1} : goal and evaluation
