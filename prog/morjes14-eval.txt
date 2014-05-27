@@ -6,6 +6,9 @@
 {S2} : Sem 2 Termination
 {SS1} : Talk 1 Tools
 {SS3} : Talk 3 Render
+{SS5} : Talk 5 Food
+{SS7} : Talk 7 GeoViz
+{SS8} : Talk 8 Lynda
 {W1} : goal and evaluation
 {W2} : goal and evalutaion
 {W3} : goal and evaluation
