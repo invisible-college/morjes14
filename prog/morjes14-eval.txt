@@ -4,6 +4,7 @@
 {C4} : Looping and Conditionals
 {S1} : Sem 1 Tools
 {S2} : Sem 2 Termination
+{SS10} : Talk 10 Etsy
 {SS1} : Talk 1 Tools
 {SS3} : Talk 3 Render
 {SS5} : Talk 5 Food
