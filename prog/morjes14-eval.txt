@@ -2,14 +2,10 @@
 {C2} : Objects and Classes
 {C3} : Import Statements and Scanner
 {C4} : Looping and Conditionals
-{S1} : Sem 1 Tools
-{S2} : Sem 2 Termination
-{SS10} : Talk 10 Etsy
-{SS1} : Talk 1 Tools
-{SS3} : Talk 3 Render
-{SS5} : Talk 5 Food
-{SS7} : Talk 7 GeoViz
-{SS8} : Talk 8 Lynda
+{PWK1} : Worksheet 1
+{PWK2} : Worksheet 2 (Interface)
+{PWK4} : Worksheet 4 (declaration vs. use)
+{PWK5} : Worksheet 5 (Enums & Encapsulation)
 {W1} : goal and evaluation
 {W2} : goal and evalutaion
 {W3} : goal and evaluation

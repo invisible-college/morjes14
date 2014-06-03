@@ -1,0 +1,17 @@
+{S1} : Sem 1 Tools
+{S2} : Sem 2 Termination
+{S3} : Sem 3 Render
+{S4} : Sem 4 Data
+{S5} : Sem 5 Food
+{S6} : Sem 6 Startup
+{S7} : Sem 7 GeoViz
+{S8} : Sem 8 Lynda
+{SS10} : Talk 10 Etsy
+{SS1} : Talk 1 Tools
+{SS2} : Talk 2 Termination
+{SS3} : Talk 3 Render
+{SS4} : Talk 4 Data
+{SS5} : Talk 5 Food
+{SS6} : Talk 6 Lean Startup
+{SS7} : Talk 7 GeoViz
+{SS8} : Talk 8 Lynda
