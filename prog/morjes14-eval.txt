@@ -1,7 +1,14 @@
 {C1} : Java Introduction
 {C2} : Objects and Classes
-
+{C3} : Import Statements and Scanner
+{C4} : Looping and Conditionals
+{PWK1} : Worksheet 1
+{PWK2} : Worksheet 2 (Interface)
+{PWK4} : Worksheet 4 (declaration vs. use)
+{PWK5} : Worksheet 5 (Enums & Encapsulation)
 {W1} : goal and evaluation
 {W2} : goal and evalutaion
 {W3} : goal and evaluation
 {W4} : goal and evaluation
+{W5} : goal and evalutaion
+{W6} : goal

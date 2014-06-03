@@ -1,0 +1,15 @@
+Programming Week 5 Lab
+Partner: Brieanna Benson, benbri03
+
+I mostly finished homework 2, but I decided to start with iJava instead and stick with it
+for the rest of the quarter. The homeworks are much harder for me this quarter for some reason
+compared to all of the homeworks from the last two quarters. I feel like there hasn't been a lot
+of guidance with the homework assignments this quarter, and no similar examples.
+I still want to do the homeworks, but they take so much more time than normal this quarter. So,
+for now, I'll finish iJava.
+
+Brieanna said that she completed homework 2 and 3 with some recluctance. She said that she had
+to research Linked Lists online since we didn't learn about it in class, and she didn't have
+any fun doing it!
+
+Week 5 Goal: Complete chapters 3,4,5 in iJava.
