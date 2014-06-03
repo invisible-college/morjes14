@@ -1,0 +1,31 @@
+Arch HW 6s
+Jessica Morton
+morjes14
+
+1.	The LED pins are connected together and wired to form a common pin. 
+	
+2.	The latch pin is used to tell the shift register when it should turn its outputs on and
+	off according to the bits that were sent to it - i.e., latching them into place.
+
+3.	Shared memory is memory that may be simultaneously accessed by multiple programs with 
+	an intent to provide communication among them or avoid redundant copies. 
+	Distributed memory refers to a multiple-processor computer system in which each processor
+	has its own private memory. 
+	
+4.	Segment registers allow the CPU to access memory outside of 64 KB to specify where the
+	code, stack and data 64 KB segments are positioned within 1 MB of memory.
+
+5.	Maybe have each core take a quarter of the numbers to compute..?
+
+6.	Subtract 4 from SP (Stack Pointer)
+
+7.	
+
+8.	In terms of threads in Java, Synchronized is all about different threads reading and
+	writing to the same variables, objects and resources. Synchronized methods enable a 
+	simple strategy for preventing thread interference and memory consistency errors: if 
+	an object is visible to more than one thread, all reads or writes to that object's 
+	variables are done through synchronized methods.
+	
+9.	Cache Coherence is the consistency of shared resource data that ends up stored in 
+	multiple local caches.
