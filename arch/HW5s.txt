@@ -23,15 +23,15 @@ morjes14
 	10 states
 
 6.	
-    -----------
-    |         |
-    |          \
-    5v          \  <-- Button
-              |
-              |
-      --------|
- Pin 2        |
-              |<-- GND
+    	-----------
+    	|         |
+    	|          \
+    	5v          \  <-- Button
+        	  |
+              	  |
+      	  --------|
+     	Pin 2     |
+     	          |<-- GND
 
 7. 	2^48 addresses with 6 byte word sizes can create 2^48 * 2^2 * 2^1 = 2^51 bytes
 
