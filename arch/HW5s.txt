@@ -1,0 +1,53 @@
+Arch HW 5s - Midterm Rewrite
+Jessica Morton
+morjes14
+
+1.	Harvard Architecture has different physical storage banks available for 
+	transferring instructions. Von Neumann uses four organs: ALU, System Memory, 
+	Control Unit, and Peripherals. No organ in Harvard Architecture. Many micro 
+	controllers, including the Arduino Atmel Mega, are Harvard Architecture.
+	
+2.	Virtual memory acts like a set of tables pointing to a physical space in 
+	memory.  An entire table of addresses that store data, could point to one 
+	address in hardware memory.  2^18 bytes.
+
+3.	Normally the value of an address in this code would access the value of 
+	the address and place it back into it.  But by specifically stating in []'s
+	only the value will be copied and used in a general register for the operation.
+	MOV AX, 220  = move 220 into AX
+
+4.	GRRG ---Sensor EW---> YRRY ---Timer---> RGGR ---Sensor NS---> RYYR ---Timer---
+    ^--------------------------------------------------------------------------|
+	 
+	TNEWS States: RGRRG, RYRRY, RRGGR, RRYYR, YGRRR, YYRRR, YRRRR, GGRRR, GYRRR, GRRRR
+	10 states
+
+6.	
+    -----------
+    |         |
+    |          \
+    5v          \  <-- Button
+              |
+              |
+      --------|
+ Pin 2        |
+              |<-- GND
+
+7. 	2^48 addresses with 6 byte word sizes can create 2^48 * 2^2 * 2^1 = 2^51 bytes
+
+8.	0x41
+
+9.	Maybe it's where the bytes are partitioned out or divided up before adding them to
+	something. Partition add splits the larger word size into smaller word sizes in bytes
+	(32 bit = 4 8 bit ops) so the operation can be done faster.
+	0x00|0x00|0x00|0x00 instead of 0x00000000
+
+10. 0.0020 seconds/0.0025 seconds = 80 percent of the time it took the one processer.
+	Two processors is 20 percent more efficient than one, in this case.
+
+11. The first loop is more effective because the search goes like this.  
+	A[i] means, in the array of arrays, you pick one array to iterate over and search 
+	through for each [j], or element of the array, inside the main array.  The other way 
+	requires you to look up both i and j again to access it while the first one grabs i once, 
+	and then searches j only.	
+
