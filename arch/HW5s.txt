@@ -45,7 +45,7 @@ morjes14
 10. 	0.0020 seconds/0.0025 seconds = 80 percent of the time it took the one processer.
 	Two processors is 20 percent more efficient than one, in this case.
 
-11	 The first loop is more effective because the search goes like this.  
+11	The first loop is more effective because the search goes like this.  
 	A[i] means, in the array of arrays, you pick one array to iterate over and search 
 	through for each [j], or element of the array, inside the main array.  The other way 
 	requires you to look up both i and j again to access it while the first one grabs i once, 
