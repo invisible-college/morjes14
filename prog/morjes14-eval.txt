@@ -6,6 +6,7 @@
 {PWK2} : Worksheet 2 (Interface)
 {PWK4} : Worksheet 4 (declaration vs. use)
 {PWK5} : Worksheet 5 (Enums & Encapsulation)
+{PWK5} : Worksheet 5 (Enums, Encapsulation)
 {W1} : goal and evaluation
 {W2} : goal and evalutaion
 {W3} : goal and evaluation
