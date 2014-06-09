@@ -1,8 +1,11 @@
+9/10  RW
+
 Arch HW 6s
 Jessica Morton
 morjes14
 
 1.	The LED pins are connected together and wired to form a common pin. 
+** on the Arduino**
 	
 2.	The latch pin is used to tell the shift register when it should turn its outputs on and
 	off according to the bits that were sent to it - i.e., latching them into place.
