@@ -1,3 +1,5 @@
+7.5/10   RW
+
 Arch HW 5s - Midterm Rewrite
 Jessica Morton
 morjes14
@@ -10,11 +12,14 @@ morjes14
 2.	Virtual memory acts like a set of tables pointing to a physical space in 
 	memory.  An entire table of addresses that store data, could point to one 
 	address in hardware memory.  2^18 bytes.
+** I don't understand what you mean.  What is 2^18?**
 
 3.	Normally the value of an address in this code would access the value of 
 	the address and place it back into it.  But by specifically stating in []'s
 	only the value will be copied and used in a general register for the operation.
 	MOV AX, 220  = move 220 into AX
+** again, this is not clear.  Are you saying that a value is copied from an address and 
+written back to that address?**
 
 4.	GRRG ---Sensor EW---> YRRY ---Timer---> RGGR ---Sensor NS---> RYYR ---Timer---
     	^--------------------------------------------------------------------------|
@@ -32,8 +37,11 @@ morjes14
       	  --------|
      	Pin 2     |
      	          |<-- GND
+     	          
+   **what about the resistor?**
 
 7. 	2^48 addresses with 6 byte word sizes can create 2^48 * 2^2 * 2^1 = 2^51 bytes
+** word size doesn't matter?**
 
 8.	0x41
 
